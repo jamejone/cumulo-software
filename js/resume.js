@@ -25,4 +25,10 @@
     target: '#sideNav'
   });
 
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/serviceworker.js', {
+      scope: '/'
+    });
+  }
+
 })(jQuery); // End of use strict
