@@ -1,5 +1,3 @@
-//via https://github.com/rossta/rossta.github.com/blob/efbb4d41697a64543f5d4870c9915e633dda962d/source/assets/javascripts/serviceworker.js
-
 'use strict';
 
 const version = 'v20180908';
